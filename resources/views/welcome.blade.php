@@ -17,7 +17,7 @@
         class="flex items-center justify-center  bg-gradient-to-b from-[#010203] via-[#07132C] to-[#041F4C] to-[#0B6FA8] p-36 h-screen">
         <h1 class="text-9xl font-bold  text-white text-center font-Silkscreen">
             The internet is
-            your canvas.
+            your canvas. sa
         </h1>
     </div>
 
