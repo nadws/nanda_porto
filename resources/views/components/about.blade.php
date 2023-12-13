@@ -1,4 +1,4 @@
-<section id="about"
+<section id="project"
     class="grid grid-cols-4 gap-2 col-span-6 bg-gradient-to-b from-[#0B6FA8] via-[#041F4C] to-[#07132C] to-[#010203] h-screen">
     <div class="col-span-2 p-28">
         <h1 class="font-poppins text-white text-5xl font-bold blink-text mt-14">Hello, I'm Nanda,</h1>

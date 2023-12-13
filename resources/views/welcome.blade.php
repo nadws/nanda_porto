@@ -52,19 +52,30 @@
     <section id="home"
         class="grid grid-cols-4 gap-2 col-span-6 bg-gradient-to-b from-[#010203] via-[#07132C] to-[#041F4C] to-[#0B6FA8] h-screen">
         <div class="col-span-2  p-28">
-            <p class="font-poppins mt-14 mb-2 text-amber-400 text-3xl">Home</p>
-            <h1 class="font-poppins text-white text-5xl font-bold blink-text ">Hello, I'm Nanda,</h1>
-            <h1 class="font-poppins text-white text-5xl font-bold blink-text mt-3">a Programmer </h1>
-            <p class="mt-4 text-white text-lg blink-text text-justify font-poppins">Navigating digital realms, I craft
+            <p class="font-poppins mt-14 mb-4 text-amber-400 text-3xl font-semibold">Hello, I'm Nanda</p>
+            <h1 class="font-poppins text-white text-4xl font-bold blink-text ">A Full Stack Developer</h1>
+            <p class="mt-4 text-white text-base blink-text text-justify font-poppins">Navigating digital realms, I craft
                 innovative
                 solutions and
                 turn bugs into opportunities for improvement. Let's shape the future of technology with creativity and
                 lasting discoveries."</p>
+            <p class="mt-4 text-white text-lg blink-text text-justify font-poppins">I am active on
+                <a target="_blank" class="text-yellow-300 underline" href="https://github.com/nadws">Github</a> and
+                <a target="_blank" class="text-yellow-300 underline"
+                    href="https://www.instagram.com/nanda_wahyudiii/?igshid=MzNlNGNkZWQ4Mg%3D%3D">Instagram</a>
+            </p>
         </div>
         <div class="col-span-2 md:flex hidden items-center justify-center">
             <img id="delayed-image" src="{{ asset('img/hero2.jpg') }}" alt="" class="h-4/6 rounded-xl">
         </div>
+
     </section>
+    <div class="col-span-4 bg-[#0B6FA8] p-5 items-center justify-center">
+        <center>
+            <img src="https://buildwithangga.com/themes/front/images/landing-page/hero/companies-x-bwa.svg"
+                alt="">
+        </center>
+    </div>
     <x-about />
 
 

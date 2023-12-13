@@ -1,11 +1,12 @@
 <nav class="bg-gray-800 p-4 fixed top-0 w-full z-50">
     <div class="container mx-auto flex justify-between items-center">
         <div>
-            <a href="#" class="text-white text-lg font-semibold">Your Logo</a>
+            <a href="#" class="text-white text-lg font-semibold"><img src="{{ asset('img/logo.png') }}"
+                    alt=""></a>
         </div>
         <div class="hidden md:flex space-x-4">
             <a href="#home" class="text-white font-poppins menu-item active" data-target="home">Home</a>
-            <a href="#about" class="text-white font-poppins menu-item" data-target="about">About</a>
+            <a href="#project" class="text-white font-poppins menu-item" data-target="project">Project</a>
             <a href="#services" class="text-white font-poppins menu-item" data-target="services">Services</a>
             <a href="#contact" class="text-white font-poppins menu-item" data-target="contact">Contact</a>
         </div>
