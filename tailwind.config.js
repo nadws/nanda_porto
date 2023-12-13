@@ -8,7 +8,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                Silkscreen: ["IBM Plex Sans Arabic", "sans-serif"],
+                poppins: ["Poppins", "sans-serif"],
             },
         },
     },
