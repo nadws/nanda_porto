@@ -13,115 +13,106 @@
 
     @vite('resources/css/app.css')
 
-    <style>
-        #delayed-image {
-            animation: fadeInAndScale 1s ease-out;
-            /* Sesuaikan durasi dan efek animasi yang diinginkan */
-            display: none;
-        }
-
-
-        @keyframes fadeInAndScale {
-            from {
-                opacity: 0;
-                transform: scale(0.5);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-    </style>
-    <style>
-        .menu-item.active {
-            /* Gaya untuk menu aktif */
-            color: #ffcc00;
-            /* Contoh: warna teks kuning */
-            /* Tambahkan gaya lain sesuai kebutuhan */
-        }
-
-
-
-        /* Menambahkan padding pada elemen di bawah navigasi agar tidak tertutup oleh navigasi */
-    </style>
 
 </head>
 
-<body>
-    <x-nav />
-    <section id="home"
-        class="grid grid-cols-4 gap-2 col-span-6 bg-gradient-to-b from-[#010203] via-[#07132C] to-[#041F4C] to-[#0B6FA8] h-screen">
-        <div class="col-span-2  p-28">
-            <p class="font-poppins mt-14 mb-4 text-amber-400 text-3xl font-semibold">Hello, I'm Nanda</p>
-            <h1 class="font-poppins text-white text-4xl font-bold blink-text ">A Full Stack Developer</h1>
-            <p class="mt-4 text-white text-base blink-text text-justify font-poppins">Navigating digital realms, I craft
-                innovative
-                solutions and
-                turn bugs into opportunities for improvement. Let's shape the future of technology with creativity and
-                lasting discoveries."</p>
-            <p class="mt-4 text-white text-lg blink-text text-justify font-poppins">I am active on
-                <a target="_blank" class="text-yellow-300 underline" href="https://github.com/nadws">Github</a> and
-                <a target="_blank" class="text-yellow-300 underline"
-                    href="https://www.instagram.com/nanda_wahyudiii/?igshid=MzNlNGNkZWQ4Mg%3D%3D">Instagram</a>
-            </p>
+<body class="bg-white dark:bg-black">
+    <div class="md:p-10 xs:p-5">
+        <button id="theme-toggle" type="button"
+            class="text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm md:p-2.5 xs:p-1 float-right">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                    fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+        </button>
+    </div>
+    <div class="grid grid-cols-4">
+        <div class="col-span-1 md:flex xs:hidden"> </div>
+        <div class="md:col-span-2 md:mt-10 xs:mt-5 xs:col-span-4 xs:ml-4 flex items-center">
+            <img src="{{ asset('img/Group 2.png') }}" alt=""
+                class="rounded-full md:h-24 md:w-24 dark:hidden xs:h-14 xs:w-14">
+            <img src="{{ asset('img/Group 3.png') }}" alt=""
+                class="rounded-full md:h-24 md:w-24 hidden dark:flex xs:h-14 xs:w-14">
+            <div class="ml-4 flex flex-col">
+                <p class="whitespace-nowrap font-poppins text-black dark:text-white font-normal text-2xl">Nanda Wahyudi
+                </p>
+                <p class="whitespace-nowrap font-poppins text-black dark:text-white font-light text-lg">Fullstack Web
+                    Developer
+                </p>
+            </div>
         </div>
-        <div class="col-span-2 md:flex hidden items-center justify-center">
-            <img id="delayed-image" src="{{ asset('img/hero2.jpg') }}" alt="" class="h-4/6 rounded-xl">
-        </div>
-
-    </section>
-    <div class="col-span-4 bg-[#0B6FA8] p-5 items-center justify-center">
-        <center>
-            <img src="https://buildwithangga.com/themes/front/images/landing-page/hero/companies-x-bwa.svg"
-                alt="">
-        </center>
+        <div class="col-span-1 md:flex xs:hidden"></div>
     </div>
     <x-about />
+    <x-work_experince />
+    <x-contact />
+
+    <br>
+    <br>
+    <br>
+
+
+
 
 
 
 </body>
 <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('menu');
-
-    menuToggle.addEventListener('click', function() {
-        menu.classList.toggle('hidden');
-        menu.classList.toggle('animate__fadeIn');
-    });
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+            '(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
 </script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(function() {
-            document.getElementById("delayed-image").style.display = "block";
-        }, 800); // Sesuaikan nilai delay sesuai kebutuhan
-    });
-</script>
-<script>
-    const sections = document.querySelectorAll("section");
-    const navLinks = document.querySelectorAll(".menu-item");
+    var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
-    window.addEventListener("scroll", () => {
-        let current = "";
+    // Change the icons inside the button based on previous settings
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+            '(prefers-color-scheme: dark)').matches)) {
+        themeToggleLightIcon.classList.remove('hidden');
+    } else {
+        themeToggleDarkIcon.classList.remove('hidden');
+    }
 
-        sections.forEach((section) => {
-            const sectionTop = section.offsetTop - 60;
-            const sectionHeight = section.clientHeight;
+    var themeToggleBtn = document.getElementById('theme-toggle');
 
-            if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
-                current = section.id;
+    themeToggleBtn.addEventListener('click', function() {
+
+        // toggle icons inside button
+        themeToggleDarkIcon.classList.toggle('hidden');
+        themeToggleLightIcon.classList.toggle('hidden');
+
+        // if set via local storage previously
+        if (localStorage.getItem('color-theme')) {
+            if (localStorage.getItem('color-theme') === 'light') {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('color-theme', 'light');
             }
-        });
 
-        console.log("Current Section ID:", current);
-
-        navLinks.forEach((link) => {
-            link.classList.remove("active");
-            if (link.getAttribute("data-target") === current) {
-                link.classList.add("active");
+            // if NOT set via local storage previously
+        } else {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('color-theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('color-theme', 'dark');
             }
-        });
+        }
+
     });
 </script>
 

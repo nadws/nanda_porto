@@ -1,4 +1,4 @@
-<div class="grid grid-cols-4 mt-10">
+<div class="grid grid-cols-4 mt-5 mb-8">
     <div class="col-span-1 md:flex xs:hidden"> </div>
     <div class="md:col-span-2 md:mt-10 xs:mt-5 xs:col-span-4  flex items-center">
         <div class="md:ml-4 xs:ml-2 flex flex-col">

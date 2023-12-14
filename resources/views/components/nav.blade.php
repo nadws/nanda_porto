@@ -1,4 +1,4 @@
-<nav class="bg-gray-800 p-4 fixed top-0 w-full z-50">
+<nav class="bg-gray-800 p-8 fixed top-0 w-full z-50">
     <div class="container mx-auto flex justify-between items-center">
         <div>
             <a href="#" class="text-white text-lg font-semibold"><img src="{{ asset('img/logo.png') }}"
@@ -6,8 +6,8 @@
         </div>
         <div class="hidden md:flex space-x-4">
             <a href="#home" class="text-white font-poppins menu-item active" data-target="home">Home</a>
-            <a href="#project" class="text-white font-poppins menu-item" data-target="project">Project</a>
-            <a href="#services" class="text-white font-poppins menu-item" data-target="services">Services</a>
+            <a href="#skill" class="text-white font-poppins menu-item" data-target="skill">Skills</a>
+            <a href="#project" class="text-white font-poppins menu-item" data-target="project">Experience</a>
             <a href="#contact" class="text-white font-poppins menu-item" data-target="contact">Contact</a>
         </div>
         <div class="md:hidden">
