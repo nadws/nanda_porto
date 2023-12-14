@@ -25,6 +25,8 @@
                         Arum</a></p>
                 <p class="font-poppins text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
                     Accounting & Birdnest Inventory</p>
+                <p class="font-poppins text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                    Javascript • Bootsrap </p>
             </div>
         </div>
     </div>
@@ -48,6 +50,8 @@
                         class="hover:underline" target="_blank"> CV.Agri Laras</a></p>
                 <p class="font-poppins text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
                     Accounting & Egg production</p>
+                <p class="font-poppins text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                    Javascript • Bootsrap </p>
             </div>
         </div>
     </div>
@@ -72,6 +76,8 @@
                         Takemori Restaurant</a></p>
                 <p class="font-poppins text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
                     Point Of Sale</p>
+                <p class="font-poppins text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                    Javascript • Bootsrap </p>
             </div>
         </div>
     </div>
@@ -96,6 +102,8 @@
                         Soondobu Restaurant</a></p>
                 <p class="font-poppins text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
                     Point Of Sale</p>
+                <p class="font-poppins text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                    Javascript • Bootsrap </p>
             </div>
         </div>
     </div>
