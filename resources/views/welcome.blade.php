@@ -7,7 +7,7 @@
     <title>Nanda Wahyudi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -29,16 +29,12 @@
             animation: fadeOutAnimation 1.5s ease-out;
         }
     </style>
-
-
-
-
 </head>
 
-<body class="bg-white dark:bg-black">
+<body class="bg-white dark:bg-[#111010]">
     <div class="flex items-center justify-center h-screen bg-gray-900 text-white" id="welcome-section">
         <div class="text-center">
-            <h1 class="text-4xl font-bold mb-4 font-poppins">Welcome to My Website</h1>
+            <h1 class="text-4xl font-bold mb-4 font-geis_sans">Welcome to My Website</h1>
             <p class="text-lg text-gray-200 mb-8">Explore the amazing content waiting for you!</p>
             <button id="klik_buka"
                 class="bg-yellow-500 mt-4 hover:bg-yellow-400 text-black py-2 px-4 rounded-lg font-poppins font-semibold transition duration-300">Get
@@ -72,10 +68,10 @@
                 <img src="{{ asset('img/Group 3.png') }}" alt=""
                     class="rounded-full md:h-24 md:w-24 hidden dark:flex xs:h-14 xs:w-14">
                 <div class="ml-4 flex flex-col">
-                    <p class="whitespace-nowrap font-poppins text-black dark:text-white font-normal text-2xl">Nanda
+                    <p class="whitespace-nowrap font-roboto text-black dark:text-white font-medium text-2xl">Nanda
                         Wahyudi
                     </p>
-                    <p class="whitespace-nowrap font-poppins text-black dark:text-white font-light text-lg">Fullstack
+                    <p class="whitespace-nowrap font-roboto text-black dark:text-white font-normal text-lg">Fullstack
                         Web
                         Developer
                     </p>
