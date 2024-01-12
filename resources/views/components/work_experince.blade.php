@@ -23,9 +23,9 @@
                 <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm"><a
                         href="https://ptagrikagatyaarum.com/" class="hover:underline" target="_blank"> PT.Agrika Gatya
                         Arum</a></p>
-                <p class="font-roboto text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
+                <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm">Building Web
                     Accounting & Birdnest Inventory</p>
-                <p class="font-roboto text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                <p class="font-roboto text-black dark:text-[#7b7a7a] font-normal md:text-sm xs:text-xs">Laravel •
                     Javascript • Bootsrap </p>
             </div>
         </div>
@@ -48,9 +48,9 @@
             <div class="col-span-2">
                 <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm"><a href="#"
                         class="hover:underline" target="_blank"> CV.Agri Laras</a></p>
-                <p class="font-roboto text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
+                <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm">Building Web
                     Accounting & Egg production</p>
-                <p class="font-roboto text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                <p class="font-roboto text-black dark:text-[#7b7a7a] font-normal md:text-sm xs:text-xs">Laravel •
                     Javascript • Bootsrap </p>
             </div>
         </div>
@@ -74,9 +74,9 @@
                 <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm"><a
                         href="https://maps.app.goo.gl/bSDSaxddGT5GUodR7" class="hover:underline" target="_blank">
                         Takemori Restaurant</a></p>
-                <p class="font-roboto text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
+                <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm">Building Web
                     Point Of Sale</p>
-                <p class="font-roboto text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                <p class="font-roboto text-black dark:text-[#7b7a7a] font-normal md:text-sm xs:text-xs">Laravel •
                     Javascript • Bootsrap </p>
             </div>
         </div>
@@ -100,9 +100,9 @@
                 <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm"><a
                         href="https://maps.app.goo.gl/99i9mNprBzp6YWGM7" class="hover:underline" target="_blank">
                         Soondobu Restaurant</a></p>
-                <p class="font-roboto text-black dark:text-white font-thin md:text-lg xs:text-sm">Building Web
+                <p class="font-roboto text-black dark:text-white font-normal md:text-lg xs:text-sm">Building Web
                     Point Of Sale</p>
-                <p class="font-roboto text-black dark:text-[#7b7a7a] font-thin md:text-sm xs:text-xs">Laravel •
+                <p class="font-roboto text-black dark:text-[#7b7a7a] font-normal md:text-sm xs:text-xs">Laravel •
                     Javascript • Bootsrap </p>
             </div>
         </div>
