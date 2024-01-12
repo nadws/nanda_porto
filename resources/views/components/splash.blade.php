@@ -169,7 +169,7 @@
         <img class="profile-img"
             src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRyBRODHdck7MaW3k7ya-ZLEeKLSYJ4HtIFGocq_23FCiYws8k"
             alt="Netflix Mask Avatar">
-        <p>josh</p>
+        <p>Nanda</p>
     </div>
 
     <div class="profile" id="klik_buka">
@@ -185,7 +185,7 @@
     <div class="profile" id="klik_buka">
         <img class="profile-img" src="https://i.pinimg.com/736x/55/ba/30/55ba30e8f83d0064ee7669dc203ad1d5.jpg"
             alt="Netflix Stranger Things Avatar">
-        <p>emma</p>
+        <p>Sister</p>
     </div>
 
     <div class="profile" id="klik_buka">
