@@ -199,10 +199,8 @@
         <div class="grid grid-cols-4">
             <div class="col-span-1 md:flex xs:hidden"> </div>
             <div class="md:col-span-2 md:mt-10 xs:mt-5 xs:col-span-4 xs:ml-4 flex items-center">
-                <img src="{{ asset('img/Group 2.png') }}" alt=""
-                    class="rounded-full md:h-24 md:w-24 dark:hidden xs:h-14 xs:w-14">
-                <img src="{{ asset('img/Group 3.png') }}" alt=""
-                    class="rounded-full md:h-24 md:w-24 hidden dark:flex xs:h-14 xs:w-14">
+                <img src="{{ asset('img/porto.jpeg') }}" alt=""
+                    class="rounded-full md:h-24 md:w-24  xs:h-14 xs:w-14">
                 <div class="ml-4 flex flex-col">
                     <p class="whitespace-nowrap font-roboto text-black dark:text-white font-medium text-2xl">Nanda
                         Wahyudi
